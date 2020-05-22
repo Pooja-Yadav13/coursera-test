@@ -3,6 +3,10 @@
     color: #000 !important;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+.bottom_line
+{
+    margin: 0;
+}
 .jumbotron
 {
     margin-bottom: 0;
@@ -20,7 +24,7 @@ li.nav-item
 {
     text-align: center;
     background-color: #fff;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     font-weight: bold;
 }
 li.nav-item:hover
@@ -44,6 +48,7 @@ li.nav-item:hover
     display: block;
     padding: 10px;
     box-sizing: border-box;
+    margin-bottom: 10px;
 }
 .chicken, .beef , .sushi
 {
@@ -66,6 +71,10 @@ h2
         margin-left: 15px;
     }
    
+}
+button.navbar-toggler , button.navbar-toggler.collapsed
+{
+    border: 2px solid #000 !important;
 }
 @media (min-width: 768px) and (max-width: 991px)
 {
