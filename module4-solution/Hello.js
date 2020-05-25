@@ -1,9 +1,13 @@
 (function () {
-    var hello = {};
-    var word = "Hello";
-    hello.speak = function (name) {
-      console.log(word + " " + name);
-    };
-    window.hello = hello;
-  })();
-  
+
+  var helloSpeaker = {};
+
+  // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
+  var speakWord = "Hello";
+
+  helloSpeaker.speak = function (name) {
+    console.log(speakWord + " " + name);
+  };
+
+  window.helloSpeaker = helloSpeaker;
+})();
