@@ -3,6 +3,7 @@
     color: #000 !important;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
 .bottom_line
 {
     margin: 0;
@@ -76,6 +77,7 @@ h2
 {
     border: 2px solid #000 !important;
     border-color: rgb(0, 0, 0) !important;
+    outline: none !important;
 }
 
   .toggle-color {
@@ -98,4 +100,8 @@ h2
         width: 95%;
         margin-left: 10px;
     }
+}
+.menu-border {
+    border: 2px solid #ccc !important;
+    outline: none !important;
 }
